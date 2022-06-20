@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "Frontend-TestFork-AAVE-V2-Protocol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alvinyap510/test-fork-AAVE-V2.github.io.git",
+  "author": "alvinyap510 <leaf.alvin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@metamask/onboarding": "^1.0.1",
+    "eth-sig-util": "^3.0.1",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "@metamask/eslint-config": "^9.0.0",
+    "eslint": "^8.17.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0"
+  }
+}

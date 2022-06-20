@@ -1,0 +1,37 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/17.7.1/bin/node /opt/homebrew/bin/yarn run serve
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:export PATH=/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:export PATH=/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.7.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/alvinyap510/Desktop/programming/projects/TestFork-AAVE-V2-Protocol/Frontend-TestFork-AAVE-V2-Protocol/package.json: Unexpected string in JSON at position 95
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "dependencies": {
+      "@metamask/onboarding": "^1.0.1",
+      "eth-sig-util": "^3.0.1"
+    }
+    "type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

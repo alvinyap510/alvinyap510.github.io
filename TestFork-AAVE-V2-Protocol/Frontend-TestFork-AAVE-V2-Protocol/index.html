@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    <title>Test Fork AAVE V2 Protocol</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">LendGaoGao</a>
+      <span id="displayEthAddress">Account: Display your account here!</span>
+      <span id="network-id">ChainID: </span>
+      <button id="connectButton">connect wallet</button>
+    </nav>
+    <h1>Test Fork AAVE V2 Protocol</h1>
+    <div class="container" id="token-price">
+      <div class="token-details">
+        <p class="token-name">Token: USDCFork</p>
+        <p class="token-address">TokenAddress:</p>
+        <p class="token-oracle-price" id="USDCFork-Price">Oracle Price:</p>
+      </div>
+    </div>
+    <script type="module" src="scripts/app.js"></script>
+  </body>
+</html>
