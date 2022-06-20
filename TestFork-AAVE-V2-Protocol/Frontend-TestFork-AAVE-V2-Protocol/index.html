@@ -13,6 +13,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    <script type="module" src="scripts/app.js"></script>
+    <script src="scripts/app2.js"></script>
     <title>Test Fork AAVE V2 Protocol</title>
   </head>
   <body>
@@ -26,10 +28,34 @@
     <div class="container" id="token-price">
       <div class="token-details">
         <p class="token-name">Token: USDCFork</p>
-        <p class="token-address">TokenAddress:</p>
-        <p class="token-oracle-price" id="USDCFork-Price">Oracle Price:</p>
+        <p class="token-address">
+          TokenAddress:
+          <a
+            href="https://rinkeby.etherscan.io/token/0x3bfaa8a31dc3b2ef40216728af248994b27822b8?a=0xf535e8eb98b7895627B806b3aA9f378627246c3A"
+          >
+            0x3BfAA8A31dC3b2Ef40216728Af248994b27822b8</a
+          >
+        </p>
+        <p class="token-oracle-price" id="USDC-Price-Update">Oracle Price:</p>
+        <button id="USDCPriceUpdate">Refresh Price</button>
+      </div>
+      <div class="token-details">
+        <p class="token-name">Token: ETHFork</p>
+        <p class="token-address">
+          TokenAddress:
+          <a
+            href="https://rinkeby.etherscan.io/token/0xb44AC2d598d4F23aF7710A609c565798668e8883"
+          >
+            0xb44AC2d598d4F23aF7710A609c565798668e8883</a
+          >
+        </p>
+        <p class="token-oracle-price" id="ETH-Price-Update">Oracle Price:</p>
+        <button id="ETHPriceUpdate">Refresh Price</button>
       </div>
     </div>
-    <script type="module" src="scripts/app.js"></script>
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
   </body>
 </html>
